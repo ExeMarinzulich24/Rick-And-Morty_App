@@ -3,12 +3,12 @@ import { validation } from "./Validation";
 
 const useUserValidation = () => {
   const [userData, setUserData] = useState({
-    username: "",
+    email: "",
     password: "",
   });
 
   const [errors, setErrors] = useState({
-    username: "",
+    email: "",
     password: "",
   });
 

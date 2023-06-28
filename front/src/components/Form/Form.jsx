@@ -18,7 +18,7 @@ const Form = ({ login }) => {
     <StyledDivContainer portatil>
       <StyledForm portatil tablet phone action="">
         <StyledDiv>
-          <StyledLabel htmlFor="">Username:</StyledLabel>
+          <StyledLabel htmlFor="">Email:</StyledLabel>
           <StyledInput
             type="text"
             name="username"
